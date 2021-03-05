@@ -1,0 +1,7 @@
+wget "$url" -O "$(echo "$url" | cut -d /  -f 5- | tr / _)"
+
+#test
+for url in mispevents
+for output in misptype
+
+do """"""
