@@ -3,7 +3,7 @@ RUN apt-get update && apt-get install wget curl -y
 WORKDIR /opt
 RUN mkdir MISP-to-HTTP
 COPY ./app /opt/MISP-to-HTTP/
-MAINTAINER edwardrixon@gmail.com
+MAINTAINER edwardrixon3@gmail.com
 
 # If you wish to add Symantecs Threatpulse proxy to your docker uncomment the following lines
 #ENV http_proxy=http://ep.threatpulse.net:80
